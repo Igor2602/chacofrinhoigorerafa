@@ -76,18 +76,16 @@ export default {
   }
 
   .wrapper-counter {
-    background-image: url('../assets/images/folhas/plaquinha.png');
-    background-repeat: no-repeat;
+    background: url('../assets/images/folhas/plaquinha.png') top center no-repeat;
     padding-top: 106px;
-    padding-left: 8px;
+    padding-left: 15px;
     min-height: 160px;
     width: 100%;
     max-width: 360px;
     margin: 0 auto 30px;
 
-    @media(max-width: 576px) {
-      margin-left: -30px;
-      padding-left: 28px;
+    @media(max-width: 768px) {
+      margin-left: -15px;
     }
 
   }
