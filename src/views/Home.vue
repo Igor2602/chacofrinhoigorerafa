@@ -22,6 +22,17 @@
 
     <h1 class="lua-mel">Ajude os noivos com a lua de mel!</h1>
 
+    <div class="instagram">
+      <p>Compartilhe este dia com muitas fotos e marque o nosso Instagram</p>
+
+      <a href="https://www.instagram.com/xuxu_0116/" target="_blank">
+        <img src="@/assets/images/instagram.svg">
+        @xuxu_0116
+      </a>
+    </div>
+
+    
+
     <div class="wrapper-map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.258983935291!2d-46.90684874902939!3d-23.559140284608837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf06d36df58e51%3A0xfebf70863e5186b1!2sR.%20Jarama%2C%2068%20-%20Jardim%20Sao%20Joao%2C%20Jandira%20-%20SP%2C%2006634-020!5e0!3m2!1spt-BR!2sbr!4v1631674047237!5m2!1spt-BR!2sbr" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
@@ -88,6 +99,38 @@ export default {
       margin-left: -15px;
     }
 
+  }
+
+  .instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    p {
+      margin: 0;
+    }
+
+    a {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 22px;
+      color: #000;
+      margin-left: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-width: 20px;
+        margin-right: 5px;
+        margin-bottom: -5px;
+      }
+
+    }
+
+    @media(max-width: 768px) {
+      flex-direction: column;
+    }
   }
 }
 </style>
