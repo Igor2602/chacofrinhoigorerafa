@@ -66,14 +66,14 @@ export default {
     }
 
     &.lua-mel {
-      font-size: 25px;
+      font-size: 28px;
       margin-bottom: 20px !important;
     }
   }
 
   p {
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     font-family: 'Cormorant Garamond', serif;
   }
 
