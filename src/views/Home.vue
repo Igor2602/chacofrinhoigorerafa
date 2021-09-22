@@ -3,7 +3,7 @@
     <img src="@/assets/images/casal.jpg">
     <h1 class="name-casal">Chá Cofrinho</h1>
     <p>
-      Estamos a um passo do SIM, <br>
+      Estamos a um passo do SIM. <br>
       mas antes queremos sua presença no nosso chá.<br>
       12/12/2021 às 14:00 horas.
     </p>
