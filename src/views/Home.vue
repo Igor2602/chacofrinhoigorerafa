@@ -16,7 +16,7 @@
 
     <p>
       Sua presença é nosso maior presente,<br>
-      Mas se tiver um troquinho sobrando,
+      mas se tiver um troquinho sobrando,
       haverá um cofre para que você deposite a quantia que quiser.
     </p>
 
